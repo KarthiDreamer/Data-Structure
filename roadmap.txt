@@ -1,0 +1,91 @@
+SORTING AND SEARCHING
+ 
+Basics of data structures
+Types                        
+Time and space complexity                        
+Selection sort                         
+Bubble sort                         
+Insertion sort                          
+Quick sort                         
+Shell sort                        
+Merge sort                        
+External sorting Searching techniques:
+Sequential search                        
+Binary search.
+Hashing                          
+Hash Functions                         
+Collision Resolution strategies.
+
+
+LINKED LIST AND STACK
+ 
+Array list                        
+Review of Pointers                         
+Linked lists 
+Types                         
+Operations                          
+Creation                         
+Insertion                         
+Deletion                        
+Modification                        
+Merging                         
+Splitting                         
+Traversal                          
+Applications: 
+Polynomial operations                        
+Set
+operations                         
+Hash table implementation
+Stacks                         
+Operations                         
+Applications of Stack                          
+Infix to Post-fix Conversion
+Expression Evaluation
+Tower of Hanoi problem                         
+Maze Problems
+
+
+QUEUES
+ 
+Queues
+Operations on Queues                        
+Queue Applications                         
+Job scheduling                        
+Circular Queue                        
+Operations                         
+Round robin scheduling                        
+Dequeue
+Priority Queues with Binary Heaps                                                 
+Binary
+Heap Implementation                         
+The Structure Property                        
+The Heap Order Property                         
+Heap Operations
+
+
+TREES
+ 
+General Trees Representation                         
+Tree Traversals                        
+Binary Search Tree                        
+Threaded Binary Tree                         
+Balanced Binary Search Trees
+AVL Tree                         
+AVL Tree Implementation
+Applications of trees                        
+Directory structure 
+Expression tree 
+B Trees
+
+
+GRAPHS
+ 
+Graphs and their representation:
+BFS                        
+DFS                         
+Shortest Path Algorithms 
+Dijkstra's Algorithm                        
+Minimum Spanning tree                         
+Kruskal’s Algorithm 
+Prims algorithm                         
+Topological Sorting

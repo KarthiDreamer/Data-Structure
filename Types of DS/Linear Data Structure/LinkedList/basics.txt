@@ -1,0 +1,65 @@
+Understanding Linkedlist
+
+#include <stdio.h>
+#include <stdlib.h>
+#define Null 0
+
+struct Node{
+    int data;
+    struct Node *next;
+};
+
+typedef struct Node *NODE;
+
+NODE create(NODE N){
+    NODE P=N;
+    NODE temp = malloc(sizeof(NODE));
+    temp->data=-1;
+    temp->next=Null;
+    P=temp;
+    
+    //here the whole Linkedlist is returned instead of just the last node(as i thought first lol! )
+    return P;
+}
+
+void disp(NODE N){
+    printf("disp");
+    NODE P=N;
+    while(P!=Null){
+      printf("%d\t",P->data);  
+      P=P->next;
+    }
+}
+
+NODE insertLast(NODE N){
+    
+    NODE P=N;
+    NODE temp = malloc(sizeof(NODE));
+    temp->data=1;
+   
+    while(P->next!=Null){
+        P=P->next;
+    }
+    
+    temp->next=P->next;
+    P->next=temp;
+    
+    return P;
+    
+}
+
+int main() {
+    
+    NODE N;
+    N=create(N);
+    
+    disp(N);
+    insertLast(N);
+    printf("after");
+    disp(N);
+
+    return 0;
+}
+
+OUTPUT:
+disp-1  afterdisp-1     1
